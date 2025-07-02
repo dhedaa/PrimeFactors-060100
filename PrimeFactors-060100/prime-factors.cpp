@@ -9,7 +9,7 @@ public:
 			result.push_back(number);
 		}
 		if (number == 3) {
-			result.push_back(3);
+			result.push_back(number);
 		}
 		return result;
 	}
