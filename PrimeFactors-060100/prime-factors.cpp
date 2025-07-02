@@ -3,10 +3,13 @@ using std::vector;
 
 class PrimeFactors {
 public:
-	vector<int> of(int i) {
+	vector<int> of(int number) {
 		vector<int> result = {};
-		if (i == 2) {
-			result.push_back(i);
+		if (number == 2) {
+			result.push_back(number);
+		}
+		if (number == 3) {
+			result.push_back(3);
 		}
 		return result;
 	}
